@@ -1,0 +1,115 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+header section.superior {
+    background-color: #1CD1B0;
+    color: #000000;
+    font-size: 16px;
+    line-height: 30px;
+    margin: 0;
+    padding-left: 20px;
+}
+
+header section.principal {
+    background-color: #00669F;
+    color: #000000;
+    font-size: 40px;
+    line-height: 80px;
+    margin-top: 0;
+    padding-left: 30px;
+}
+
+header {
+    position: relative;
+    z-index: 1;
+}
+
+header.sticky {
+    position: sticky;
+    top: 0;
+}
+
+main {
+    height: 800px;
+}
+
+h2 {
+    margin-top: 80px;
+    text-align: center;
+}
+
+section.contenedor div.texto p {
+    color: #333333;
+    font-size: 18px;
+    margin: 0;
+    padding: 17px;
+}
+
+
+
+section.contenedor .encabezado img {
+    border-radius: 50%;
+    left: 113px;
+    position: absolute;
+    top: 130px;
+    width: 120px;
+}
+
+section.contenedor {
+    background-color: #F3F3F3;
+    border-radius: 5px;
+    display: inline-block;
+    height: 600px;
+    left: 40px;
+    margin: 20px;
+    position: relative;
+    top: 70px;
+    width: 350px;
+}
+
+section.contenedor1 .encabezado {
+    background-image: url(../img/Top1.png);
+    background-size: cover;
+    height: 193px;
+}
+
+section.contenedor2 .encabezado {
+    background-image: url(../img/Top2.png);
+    background-size: cover;
+    height: 193px;
+}
+
+
+i {
+    color: #CC2424;
+    font-size: 30px;
+    margin: 15px;
+}
+
+section.contenedor div.boton p {
+    background-color: #00669F;
+    left: 114px;
+    position: absolute;
+    text-align: center;
+    top: 500px;
+    width: 120px;
+}
+
+section.contenedor div.boton a {
+    color: #F3F3F3;
+    text-decoration: none;
+}
+
+
+footer {
+    background-color: #00669F;
+    color: #FFF9F9;
+    line-height: 50px;
+    padding-left: 20px;
+}
